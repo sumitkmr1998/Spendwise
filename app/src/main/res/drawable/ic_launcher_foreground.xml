@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Message chat bubble shadow/backdrop -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M26,30 h56 c4.4,0 8,3.6 8,8 v32 c0,4.4 -3.6,8 -8,8 h-32 l-12,10 v-10 h-12 c-4.4,0 -8,-3.6 -8,-8 v-32 c0,-4.4 3.6,-8 8,-8 z" />
+    <!-- Message bubble border / rim -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M26,30 h56 c4.4,0 8,3.6 8,8 v32 c0,4.4 -3.6,8 -8,8 h-32 l-12,10 v-10 h-12 c-4.4,0 -8,-3.6 -8,-8 v-32 c0,-4.4 3.6,-8 8,-8 z" />
+    
+    <!-- Dollar / Currency Symbol inside -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M37,47 c0,-2.2 1.8,-4 4,-4 h4 c2.2,0 4,1.8 4,4 c0,2.5 -1.5,3.5 -3.5,4 l-1,0.2 c-2,0.5 -3.5,1.5 -3.5,3.8 c0,2.2 1.8,4 4,4 h4 c2.2,0 4,-1.8 4,-4 h-2.5 c0,1 -0.8,1.8 -1.5,1.8 h-4 c-0.7,0 -1.5,-0.8 -1.5,-1.8 c0,-1.2 0.8,-1.8 2.5,-2.2 l1,-0.2 c2.5,-0.6 4.5,-1.8 4.5,-4.6 c0,-2.2 -1.8,-4 -4,-4 h-4 c-2.2,0 -4,1.8 -4,4 z" />
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M42,41 h2 v2 h-2 z M42,61 h2 v2 h-2 z" />
+
+    <!-- Spending Trend Bars -->
+    <!-- Bar 1 (Short) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M56,56 h5 v10 h-5 z" />
+    <!-- Bar 2 (Medium) -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M64,48 h5 v18 h-5 z" />
+    <!-- Bar 3 (Tall) -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M72,40 h5 v26 h-5 z" />
+
+    <!-- Trend line over bars -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FCD34D"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M56,53 L66.5,45 L74.5,37" />
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M74.5,37 m-2,0 a2,2 0 1,1 4,0 a2,2 0 1,1 -4,0" />
+</vector>

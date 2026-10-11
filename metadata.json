@@ -1,0 +1,6 @@
+{
+  "name": "SpendWise",
+  "description": "Analyze text messages for expenses, view category spending trends, and export to Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
